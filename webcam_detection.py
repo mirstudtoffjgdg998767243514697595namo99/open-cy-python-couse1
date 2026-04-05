@@ -6,8 +6,6 @@ face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_fronta
 # 2. เปิดกล้อง (0 คือกล้องหลักของเครื่อง)
 cap = cv2.VideoCapture(0)
 
-print("กำลังเปิดกล้อง... (กด 'q' เพื่อออกจากโปรแกรม)")
-
 while True:
     # อ่านเฟรมจากกล้อง
     ret, frame = cap.read()
